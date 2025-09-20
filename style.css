@@ -1,0 +1,61 @@
+body {
+    background: #eecc88;
+    font-family: 'Times New Roman', Times, serif; /*fallback font*/
+}
+
+.main_title { /**man this should really be an id. or something. idunno**/
+    background: #ff9900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.recipe_list {
+    display: inline-block;
+    background: #33ff44;
+    font-size: 32px;
+    margin-top: -12px;
+    padding-bottom: 1px;
+    padding-right: 32px;
+    width: auto;
+}
+
+.recipe_title {
+    text-align: center;
+    background-color: #ff9900;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.recipe_img {
+    display: block;
+    margin: auto;
+}
+
+.description {
+    background: #ffcfcf;
+    padding-bottom: 1px;
+}
+
+.description_text {
+    margin-top: -12px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.ingredients {
+    background: #eeaaaa;
+    padding-bottom: 1px;
+}
+
+.ingredients_list {
+    margin-top: -12px;
+    font-size: 16px;
+}
+
+.steps {
+    background: #ff8888;
+    padding-bottom: 1px;
+}
+
+.steps_list {
+    margin-top: -12px;
+    font-size: 16px;
+}
